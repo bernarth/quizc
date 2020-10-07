@@ -35,7 +35,7 @@ Quizc - A command quiz utility
             if self.quiz_answers is None:
                 print("No filled quiz available, you must create first a quiz")
             else:
-                QuizUIHandler.show_quiz(self.quiz_answers)
+                QuizUIHandler.show_quiz(self.quiz)
         elif option == "4":
             should_exit = True
 
